@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".CoingActivity" >
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="221dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <Button
+        android:id="@+id/buttonFlip"
+        android:layout_width="267dp"
+        android:layout_height="95dp"
+        android:text="Flip"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/buttonBackF"
+        android:layout_width="267dp"
+        android:layout_height="95dp"
+        android:text="Back"
+        android:textSize="20sp" />
+</LinearLayout>
